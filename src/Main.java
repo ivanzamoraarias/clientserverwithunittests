@@ -29,4 +29,11 @@ public class Main {
         }
     }
 
+    public void startServerConexion(int port) throws IOException {
+
+        ServerSocket listener = new ServerSocket(port);
+
+
+    }
+
 }
